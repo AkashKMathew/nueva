@@ -1,0 +1,16 @@
+.home{
+    height: 50vw;
+    width: 100%;
+    background-color: #01012b;
+    overflow-x:hidden ;
+}
+.logo-div{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo-div video{
+    width: 80%;
+    overflow: hidden;
+}

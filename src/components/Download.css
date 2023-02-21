@@ -1,0 +1,66 @@
+.group{
+    color:white;
+    height:10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-family: Chakra Petch;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+   
+ 
+}
+.drow1{
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+
+}
+.drow2{
+    height: 5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.c1{
+    background-image: linear-gradient(120deg, #074b61,transparent, transparent);
+    height: 4vw;
+    width: 46vw;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 0.2vw;
+    color:white;
+}
+.c1:hover{
+    background-image: linear-gradient(120deg, #1490ba,#033d54, transparent);
+
+}
+.c2{
+    background-image: linear-gradient(120deg, #074b61,transparent, transparent);
+
+    height: 4vw;
+    width: 46vw;
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 0.2vw;
+    color:white;
+    text-decoration: none;
+}
+.c2:hover{
+    background-image: linear-gradient(120deg, #f6f6f6,#033d54, transparent);
+
+
+}
+@media (max-width: 575.98px) {
+    
+.group{
+    margin-top: 70vw;
+  
+ 
+}
+
+}
+
