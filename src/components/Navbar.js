@@ -13,10 +13,10 @@ const Navbar = () => {
 
      <div className={`buttons ${toggle ? "Buttons" : "nobut"}`} >
 
-        <button class="simbut1" >home</button>
-        <button class="signbut" >Sign In</button>
-        <button class="simbut2" >Event</button>
-        <button class="simbut3" >Contact</button>
+        <button className="simbut1" >home</button>
+        <button className="signbut" >Sign In</button>
+        <button className="simbut2" >Event</button>
+        <button className="simbut3" >Contact</button>
         </div>
     </div> );
 }

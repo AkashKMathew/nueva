@@ -19,8 +19,8 @@ let Scrollanimation = () => {
         );
       })} */
   return (
-    <div class="marquee_container">
-      <div class="marquee primary">
+    <div className="marquee_container">
+      <div className="marquee primary">
         {nueva_count > 0 &&
           Array(nueva_count)
             .fill(0)
@@ -33,7 +33,7 @@ let Scrollanimation = () => {
               );
             })}
       </div>
-      <div class="marquee secondary">
+      <div className="marquee secondary">
         {nueva_count > 0 &&
           Array(nueva_count)
             .fill(0)
