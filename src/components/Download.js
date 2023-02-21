@@ -41,7 +41,7 @@ const Download = () => {
 				</div>
 			
 				<button className="c2" >
-				<a href="https://www.yepdesk.com/buy-tickets/63a30cd4c9e77c00010264ec" target={"_blank"}>Register</a>
+				<a href="https://www.yepdesk.com/buy-tickets/63a30cd4c9e77c00010264ec" target={"_blank"} rel="noreferrer">Register</a>
 				</button>
 			</center>
 		</>

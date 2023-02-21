@@ -1,5 +1,5 @@
 import "./Navbar.css";
-import { FiArrowUpRight, FiMenu } from "react-icons/fi";
+import { FiMenu } from "react-icons/fi";
 import { MdClose } from "react-icons/md";
 import { useState } from "react";
 const Navbar = () => {
