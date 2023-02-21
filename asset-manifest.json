@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/nueva/static/css/main.cc8b30c0.css",
-    "main.js": "/nueva/static/js/main.8aac9694.js",
+    "main.js": "/nueva/static/js/main.7a5e5c16.js",
     "static/media/logo-anim.mp4": "/nueva/static/media/logo-anim.2a7a0c268d22b9b1817f.mp4",
     "static/media/Logodesign.jpeg": "/nueva/static/media/Logodesign.bf8f202a9c78358c69cf.jpeg",
     "static/media/elektra.jpeg": "/nueva/static/media/elektra.3bcbba366f06811ddcf6.jpeg",
     "index.html": "/nueva/index.html",
     "main.cc8b30c0.css.map": "/nueva/static/css/main.cc8b30c0.css.map",
-    "main.8aac9694.js.map": "/nueva/static/js/main.8aac9694.js.map"
+    "main.7a5e5c16.js.map": "/nueva/static/js/main.7a5e5c16.js.map"
   },
   "entrypoints": [
     "static/css/main.cc8b30c0.css",
-    "static/js/main.8aac9694.js"
+    "static/js/main.7a5e5c16.js"
   ]
 }
