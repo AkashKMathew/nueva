@@ -9,36 +9,18 @@ import Gevents from "./components/Gevents";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Download from "./components/Download";
 function App() {
-  
+
 
   return (
-    <Router>
-      <div className="app">
-        <Routes>
-         
-
-          <Route
-            exact
-            path="/"
-            element={
-              <><div className="mainpart">
-                <Home />
-                <Gevents/>
-                <Download />
-             
-                </div>
-                <div className="remain">
-                <Scrollanimation />
-                <Istelogo />
-                <Scrollanimation />
-                <Footer />
-                </div>
-              </>
-            }
-          />
-        </Routes>
-      </div>
-    </Router>
+    <div className="app">
+      <Home />
+      <Gevents />
+      <Download />
+      <Scrollanimation />
+      <Istelogo />
+      <Scrollanimation />
+      <Footer />
+    </div>
   );
 }
 
