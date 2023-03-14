@@ -1,0 +1,26 @@
+/** @format */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@font-face {
+  font-family: Hanson-Bold;
+  src: url(./font/Hanson-Bold.ttf);
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@font-face {
+  font-family: imported2;
+  src: url(./font/fontsfree-net-sddd4-webfont.woff2);
+}
+@font-face {
+  font-family: imported3;
+  src: url(./font/fontsfree-net-axiforma6woff2-webfont.woff);
+}
+body {
+  /* background-color: #01012b; */
+  background-image: url("./Assets/gra.png");
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  /* font-family: Imported; */
+}

@@ -1,0 +1,219 @@
+.vid{
+    overflow: hidden;
+}
+.roboAnim,.roboAnim1{
+    margin-top: 10vw;
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.bg,.bg1{
+    position: relative;
+    width: 80%;
+    height: 80vh;
+    background-image: url("../Assets/background.png");
+    background-attachment: local;
+  background-size: cover;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 2vw;
+}
+.bg1{
+    background-image: url("../Assets/lazer3.png");
+}
+.bg img{
+    height: 100%;
+}
+.bg h1,.bg1 h1{
+    font-family: Hanson-Bold;
+    width: 50vw;
+     color: rgb(240 96 0);
+     font-size: 4vw;
+     font-weight: 400;
+     text-align: center;
+}
+.robots{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+}
+.prize{
+    margin-top: 20vw;
+    margin-left: -65vw;
+    font-size: 2vw;
+    font-family: Hanson-Bold;
+    color: rgb(145, 255, 0);
+}
+.active.prize{
+    animation: anim4 3.2s ease-in  1 ;
+}
+.robo1{
+    width: 20vw;
+    
+}
+.active.robo1{
+    animation: anim1 3s ease-in  1 ;
+}
+.robo2{
+    margin-left: -13vw;
+    margin-right: -13vw;
+    width: 40vw;
+    z-index: 1;
+    
+}
+.active.robo2{
+    animation: anim2 3s ease-in-out  1 ;
+}
+.robo3{
+    width: 20vw;
+    
+}
+.active.robo3{
+    animation: anim3 3s ease-in-out  1 ;
+}
+.ship{
+    margin-top: 13vw;
+    width: 30vw;
+    height: 15vw;
+}
+.man{
+    margin-top: 5vw;
+    height: 35vw;
+}
+.active.ship{
+    animation: anim5 3s ease-in-out  1 ;
+}
+.active.man{
+    animation: anim6 12s ease-in-out  infinite ;
+}
+@keyframes anim1{
+    0%{
+        transform: translate(0em);
+    }
+    50%{
+        transform: translate(4em);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+@keyframes anim2{
+    0%{
+        opacity: 0;
+    }
+    10%,
+    30%,
+    50%,
+    70%{
+        opacity: .3;
+    }
+    20%,
+    40%,
+    60%,
+    80%{
+        opacity: .2;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes anim3{
+    0%{
+        transform: translate(0em);
+    }
+    50%{
+        transform: translate(-4em);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+@keyframes anim4{
+    0%{
+        transform: translate(-500em);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+@keyframes anim5{
+    0%{
+        transform: scale(0) translate(50em);
+    }
+    100%{
+        transform: scale(1.0) translate(0em);
+    }
+}
+@keyframes anim6{
+    0%{
+        transform: translateY(1.6em);
+    }
+    10%,
+    30%,
+    50%,
+    70%,
+    90%{
+        transform: translateY(-1.6em);
+    }
+    20%,
+    40%,
+    60%,
+    80%{
+        transform: translateY(1.6em);
+    }
+    100%{
+        transform: translateY(1.6em);
+    }
+}
+@media only screen and (max-width:1250px) {
+    .bg h1,.bg1 h1{
+        margin-top: 4vw;
+    }
+    .bg,.bg1{
+        height: 60vh;
+    }
+}
+@media only screen and (max-width:900px) {
+    .bg,.bg1{
+        height: 45vh;
+    }
+    .bg h1,.bg1 h1{
+        margin-top: 6vh;
+    }
+    @keyframes anim1{
+        0%{
+            transform: translate(0em);
+        }
+        50%{
+            transform: translate(2em);
+        }
+        100%{
+            transform: translate(0);
+        }
+    }
+    @keyframes anim3{
+        0%{
+            transform: translate(0em);
+        }
+        50%{
+            transform: translate(-2em);
+        }
+        100%{
+            transform: translate(0);
+        }
+    }
+}
+@media only screen and (max-width:600px) {
+    .bg h1,.bg1 h1{
+        margin-top: 9vh;
+    }
+    .bg,.bg1{
+        height: 40vh;
+        width: 90vw;
+    }
+}

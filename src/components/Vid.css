@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;600;700&family=Orbitron:wght@400;600&display=swap");
+
+.Vide{
+    display: flex;
+    margin-top: 13vw;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 118vw;
+    align-content: center;
+    /* background-color: red; */
+}
+.highlight1,.highlight3{
+    /* width: 100vw; */
+    height: 35vw;
+    display: flex;
+    justify-content: center;
+
+
+    flex-direction: row;
+}
+.Vid{
+    margin-top: 16vw;
+    margin-bottom: 16vw;
+    height:125vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.robo {
+    height: 40vw;
+    width: 35vw;
+    padding: 4vw;
+    border-radius: 18vw;
+}
+.backi,.backi2{
+        /* height: 45vw; */
+        width: 95vw;
+        border-radius: 3vw;
+        overflow: hidden;
+}
+.backi2 img{
+    transform: rotateY(180deg);
+}
+.roh1,.roh2,.roh3{
+    position: absolute;
+    display: flex;
+    margin-left: 40vw;
+    flex-direction: column;
+    width: 60vw;
+    margin-top: 7vw;
+    height: 35vw;
+}
+.roh2{
+    margin-left: -6vw;
+}
+.roh1 h1,.roh2 h1,.roh3 h1{
+    font-family: Hanson-Bold;
+    width: 50vw;
+    /* color: rgb(240 96 0); */
+    color: aqua;
+     font-size: 4vw;
+     font-weight: 400;
+     align-items: center;
+    
+     
+ }
+.roh1 p,.roh2 p,.roh3 p{
+    color: white;
+    text-align: left;
+    font-family: poppins, sans-serif;
+    font-weight: 300;
+    font-size: 1.6vw;
+    width: 46vw;
+}
+.roh2 p{
+    width: 41vw;
+}
+.highlight2{
+        width: 100vw;
+    /* display: flex; */
+    height: 35vw;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+
+.reveal{
+    position: relative;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
+  @media only screen and (max-width:1250px) {
+    .Vid{
+        height: 110vw;
+    }
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .Vid{
+        height: 120vw;
+        width: 100vw;
+        margin-top: 35vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        /* background-color: red; */
+        flex-direction: column;
+    }
+    .highlight1,.highlight2,.highlight3{
+        background-color: #01013eba;
+        width: 85vw;
+        height: 95vw;
+        margin-top: 14vw;
+        border: 2px solid #08ffdbcf;
+        border-radius: 8vw;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .robo{
+    position: absolute;
+    width: 80vw;
+    opacity: .5;
+    }
+    .roh1 ,.roh2 ,.roh3 {
+        display: flex;
+        flex-direction: column;
+        /* background-color: green; */
+        width: 84vw;
+        height: 100%;
+        align-items: center;
+    }
+    .roh1 h1,.roh2 h1,.roh3 h1{
+        font-size: 8vw;
+        margin-left: 0vw;
+        text-align: center;
+        width: 100%;
+        margin-top: 4vw;
+        
+    }
+    .roh1 p,.roh2 p,.roh3 p{
+        font-size: 4vw;
+        width: 80%;
+        margin-top: 1vw;
+    }
+    .Vide{
+        display: flex;
+        height: 340vw;
+        /* background-color: red; */
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+   
+  }
+  

@@ -1,0 +1,517 @@
+.event1{
+    
+        width: 100vw;
+    height: 66vw;
+        display: flex;
+        margin-top: 20vw;
+        align-items: center;
+        justify-content: center;
+      
+  
+  }
+
+  .feat{
+    display: flex;
+    align-items: center;
+  }
+  .feat p{
+    margin-left: 2vw;
+  }
+  
+  .close1 {
+  position: absolute;
+  left:88vw;
+    top: 100vw;
+   font-size: 4vw;
+    color: white;
+    cursor: pointer;
+    /* background-color: red; */
+    
+  }
+  .sheet1{
+    /* background-image: linear-gradient(#01012b, #074b61, #01012b); */
+  
+       /* background-image: linear-gradient(#01012b, #074b61, #01012b); */
+       border: white solid 0.2px;
+       box-shadow: #ffffff26 0px 0px 1px 1px;
+       background-image: linear-gradient(120deg, #000000,#02222f, transparent);
+       opacity: 1;
+       width: 80vw;
+     height: 69vw;
+       display: flex;
+    justify-content: center;
+       border-radius: 4vw;
+       align-items: center;
+       flex-direction: column;
+  
+    
+  }
+  
+
+  .cardl{
+  
+    border: 1px solid rgb(240 96 0);
+    height: 28vw;
+    margin: 3vw;
+    align-items: flex-start;
+    width: 29vw;
+    background-color: black;
+    border-radius: 2vw;
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    color: white;
+  
+  }
+  .cardDoc{
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.144);
+    z-index: 5;
+  }
+  .cardContain{
+    width: 50vw;
+    height: 50vw;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    transform-style: preserve-3d;
+    backface-visibility: hidden;
+  }
+  
+  .front,.back{
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    background-color: white;
+    position: absolute;
+    display: flex;
+    overflow: hidden;
+    transition: transform 0.5s linear;
+    backface-visibility: hidden;
+  }
+  .docImg{
+    width: 100%;
+    height: 100%;
+    position: relative;
+  }
+  .docImg img{
+    height: 100%;
+    width: 100%;
+  }
+  .docContent{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  
+  }
+  .back h1 {
+    font-size: 4rem;
+    color: rgb(168, 10, 168);
+  }
+  .back p{
+    color: Blue;
+   padding: 10rem;
+  }
+  .btn{
+    color: rgb(3, 122, 138);
+    position: absolute;
+    top: 8%;
+    right: 10%;
+  }
+  .front{
+    transform: rotateY(0deg);
+  }
+  .back{
+    transform: rotateY(180deg);
+  }
+  
+  .cardContain:hover > .front{
+    transform: rotateY(-180deg);
+  }
+  .cardContain:hover > .back{
+    transform: rotateY(0deg);
+  }
+  .mainEvents{
+    height: 42vw;
+    width: 73vw;
+    display: flex;
+    justify-content: space-around;
+    /* background-color: red; */
+    align-items: center;
+    flex-direction: column;
+  }
+  .mainev{
+    width: 20vw;
+    background-color: red;
+   }
+  .mainev h1{
+    font-size: 3vw;
+    color: rgb(240 96 0);
+    font-weight:800;
+    font-family: poppins;
+  }
+  .deptEvents{
+    height: 37vw;
+    width: 73vw;
+    background-color: blue;
+    overflow-y: scroll;
+
+  }
+  .insheet{
+    overflow-y: scroll;
+    scrollbar-width: none;
+
+  }
+  .insheet::-webkit-scrollbar {
+    display: none;
+  }
+  .innersheet1{
+    /* background-color: aqua; */
+        /* background-color: aqua; */
+        overflow-y: scroll;
+        border: 1px solid aqua;
+        border-radius: 1vw;
+        width: 72.9vw;
+        height: 31.5vw;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        display: flex;
+        overflow-y: auto;
+        scrollbar-width: none;
+  }
+  .innersheet1::-webkit-scrollbar {
+    display: none;
+  }
+  
+  
+  .head3{
+    margin: 1vw 2vw;
+  }
+  .reg1{
+    border:2px solid aqua;
+    height:2vw;
+    width: 5vw;
+    border-radius: .5vw;
+    margin-left: 2vw;
+    background-color: black;
+  
+    /* position: relative; */
+  }
+  .reg2{
+    border: 2px solid aqua;
+      height: 2vw;
+      font-size: 1vw;
+      width: 5vw;
+      background-color: black;
+      color: white;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      margin-top: -0.5vw;
+      margin-left: -0.5vw;
+      border-radius: 0.5vw;
+      font-family: poppins;
+      justify-content: center;
+  
+  }
+  .mainhead{
+    display: flex;
+    margin-left: 2vw;
+    width: 24vw;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .mainhead p{
+    font-family: poppins;
+    position: relative;
+  
+  }
+  .comb{
+    display: flex;
+    width: 25vw;
+    justify-content: space-between;
+    
+  }
+  .comb a{
+    font-size: 1vw;
+    color: rgb(255, 255, 255);
+    font-family: poppins;
+  }
+  .sh1{
+    color: rgb(240 96 0);
+    width: 100%;
+    display: flex;
+    height: 11vw;
+    align-items: center;
+    justify-content: center;
+    font-size: 4vw;
+    font-weight: 800;
+    font-family: poppins;
+  }
+  @media(hover:hover){
+    .imag1:hover{
+      z-index: 50;
+      margin-top: -6vw;
+      margin-left: 0vw;
+      background-color: red;
+      transition: .3s ease-in-out ;
+      border-radius: 2vw;
+      width: 30vw;
+      height: 29vw;
+      
+    }
+  }
+  @media (max-width:900px) {
+    .cardContain{
+      width: 400px;
+      height: 500px;
+    }
+    .back p{
+      padding: 25px;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 600px ) {
+    .sheet1{
+      width: 100vw;
+      height: 66vw;
+      display: flex;
+      margin-top: 11vw;
+      align-items: center;
+      justify-content: center;
+    }
+   
+   
+    
+    .cardContain{
+      width: 350px;
+      height: 550px;
+    }
+    .back p{
+      padding: 25px;
+    }
+    .cardl{
+      width: 60vw;
+      height: 58vw;
+    }
+    .event1{
+      width: 100vw;
+      height: 66vw;
+      display: flex;
+      margin-top: 0vw;
+      align-items: center;
+      justify-content: center;    }
+    .sheet{
+      height: 85vw;
+    }
+    .mainhead{
+      width: 54vw;
+    }
+    .head{
+      font-size: 5vw;
+      margin: 2vw -2vw;
+    }
+    
+    .head3{
+      font-size: 4vw;
+      margin: -1vw 5.5vw 3vw;
+    }
+    .comb{
+      width: 55vw;
+      /* background-color: red; */
+      display: flex;
+      align-items: center;
+    }
+    .reg1{
+      width:15vw;
+      height:6vw;
+      border:2px solid white;
+    border-radius: 2vw;
+    margin-left: 5.5vw;
+    background-color: black;
+    }
+    .reg2{
+      border: 2px solid white;
+        font-size: 3vw;
+        width:15vw;
+      height:6vw;
+        background-color: black;
+        color: white;
+        display: flex;
+        align-items: center;
+        margin-top: -1.3vw;
+        margin-left: -1.3vw;
+        border-radius: 2vw;
+        font-family: 'Chakra Petch', sans-serif;
+        justify-content: center;
+    
+    }
+    .comb a{
+      font-size: 3vw;
+    }
+    .sheet1{
+      width: 100vw;
+      height: 96vw;
+      display: flex;
+      margin-top: 11vw;
+      align-items: center;
+      justify-content: center;
+
+    }
+    .mainEvents{
+      height: 85vw;
+    }
+    .innersheet1{
+      height: 72.9vw;
+    }
+    .mainev h1{
+      font-size: 5vw;
+    }
+    .inside{
+      justify-content: center;
+    }
+    
+  }
+
+  .closesheet1{
+    display: none;
+  }
+
+  @media only screen and (min-width: 1100px ){
+    .event1{
+      margin-top: 5vw;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .tabs{
+    /* background-color: darkred; */
+    width: 88%;
+    display: flex;
+    height: 8%;
+    align-items: center;
+    font-size: 3vw;
+    
+
+
+  }
+  .tab1{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0 43 43 / 83%);
+    color: rgb(240 96 0);
+    cursor: pointer;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 2vw 0vw 0vw 2vw;
+    transition: 1s;
+  }
+
+  .tab-nockeck1{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    background-color: rgb(255, 120, 30);
+    color: rgb(0, 255, 255);
+    border: 2px solid white;
+    border-radius: 2vw 0vw 0vw 2vw;
+    transition: 1s;
+
+
+  }
+  .tab2{
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    height: 100%;
+    background-color: rgb(255, 120, 30);
+    color: rgb(0, 255, 255);
+    border: 2px solid white;
+    border-radius: 0vw 2vw 2vw 0vw;
+    transition: 1s;
+
+
+  }
+
+  .tab-nockeck2{
+    width: 50%;
+    text-align: center;
+    background-color: rgb(0 43 43 / 83%);
+    color: rgb(240 96 0);
+    cursor: pointer;
+    height: 100%;
+    border: 2px solid white;
+    border-radius: 0vw 2vw 2vw 0vw;
+    transition: 1s;
+
+
+  }
+  .tab1open{
+    height: 81%;
+    display: flex;
+    width: 88%;
+    align-items: center;
+    justify-content: center;
+    transition: 1s;
+
+  }
+  .tabclose1{
+    display: none;
+  }
+  .inside{
+    width: 100%;
+    height: 90%;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid white;
+    border-radius: 4vw;
+    }
+  .inside::-webkit-scrollbar {
+    display: none;
+  }
+ 

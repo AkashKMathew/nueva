@@ -1,0 +1,48 @@
+.about{
+    position: absolute;
+    top: 70vw;
+    background-color: aliceblue;
+    margin-top: 8vw;
+}
+.videoTag{
+  
+    width: 100vw;
+    height: 50vw;
+    background-color: black ;
+}
+.in{
+    padding: 5vw;
+    position: relative;
+}
+.in h1{
+    font-size: 3vw;
+    color: #00E6F6;
+    font-weight: 600;
+    font-family: Hanson-Bold;
+}
+.in p{
+    color: white;
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.6vw;
+    width: 68vw;
+}
+@media only screen and (max-width: 600px){ 
+
+    .in h1{
+        font-size: 12vw;
+        color: #00E6F6;
+        font-weight: 600;
+    }
+    .abn{
+        width: 100vw;
+        /* background-color: blue; */
+    }
+    .in p{
+        color: white;
+        text-align: left;
+        
+        font-size: 4vw;
+        width: 82vw;
+    }
+}
